@@ -518,6 +518,22 @@ a:focus {
 
 .category_section .heading_container h2 {
   border-bottom: 1px solid #222222;
+  
+}
+
+.category_section h5 a {
+  color: #222222;
+  text-decoration: none; 
+}
+
+
+.category_section h5 a:hover {
+  color: #222222;
+}
+  
+.category_section .category_container .box .detail-box h5:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
 }
 
 .category_section .category_container {
@@ -543,10 +559,10 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px 0;
+  margin: 20px 0;
   min-width: 130px;
-  -ms-flex-preferred-size: 26%;
-      flex-basis: 26%;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
 }
 
 .category_section .category_container .box .img-box {
@@ -561,6 +577,11 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.category_section .box .img-box img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 /* 기본 스타일 */
@@ -800,9 +821,6 @@ a:focus {
   width: 100%;
 }
 
-.team_section .box .img-box img {
-  width: 100%;
-}
 
 .team_section .box .img-box img:hover {
   transform: scale(1.05);
